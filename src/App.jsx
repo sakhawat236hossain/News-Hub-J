@@ -27,6 +27,7 @@ function App() {
       <Navbar />
       
       {loading ? (
+        
         <SkeletonLoader />
       ) : (
        
