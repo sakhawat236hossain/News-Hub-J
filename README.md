@@ -1,16 +1,43 @@
-# React + Vite
+📰 Modern News Portal (Pixel Perfect)
+A high-performance, dynamic news portal developed with React.js and Tailwind CSS. This project focuses on high-fidelity design reproduction, seamless data fetching, and an optimized user experience through advanced UI patterns like Skeleton Loaders and Sticky Navigation.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demonstration
+Check out the live project here: [\[Insert Your Live Link Here\]](https://news-hub-j.netlify.app/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+Dynamic API Integration: Real-time data synchronization for Top News, Latest Updates, and Category-specific grids.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Skeleton Loading States: Enhanced User Experience (UX) using shimmer-effect placeholders to prevent layout shifts during data fetching.
 
-## Expanding the ESLint configuration
+Sticky & Intuitive Navigation: A custom-built, responsive navigation bar that stays fixed while scrolling for easy access to categories.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Performance Optimized: Implements "Line-Clamp" for uniform card heights and CSS transitions for smooth hover interactions.
+
+Fully Responsive: A "Mobile-First" approach ensuring the portal looks great on smartphones, tablets, and desktops.
+
+🛠 Technology Stack
+Frontend Library: React.js
+
+Styling: Tailwind CSS 
+
+Fonts: Hind Siliguri 
+
+Routing & State: React Hooks (useState, useEffect) and conditional rendering.
+
+⚙️ Installation & Setup
+Follow these steps to run the project locally:
+
+Clone the Repository:
+
+Bash
+
+git clone https://github.com/sakhawat236hossain/News-Hub-J
+
+Bash
+
+npm install
+Launch Development Server:
+
+Bash
+
