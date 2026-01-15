@@ -1,11 +1,14 @@
 
 import './App.css'
+import Navbar from './components/Common/Navbar'
 
 function App() {
   
 
   return (
-  <div className='font-bold'>hello</div>
+  <main>
+    <Navbar></Navbar>
+  </main>
   )
 }
 
