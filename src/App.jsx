@@ -9,18 +9,15 @@ function App() {
   const [homeData, setHomeData] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetch("/api/v1/home")
-      .then((res) => res.json())
-      .then((json) => {
-        if (json.success) setHomeData(json.data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error(err);
-        setLoading(false);
-      });
-  }, []);
+useEffect(() => {
+  fetch("https://news-server.ubautomation.com/api/v1/home") 
+    .then((res) => res.json())
+    .then((json) => {
+      if (json.success) setHomeData(json.data);
+      setLoading(false);
+    })
+    .catch((err) => console.error("Error:", err));
+}, []);
 
   return (
     <main className="bg-white min-h-screen font-['Hind_Siliguri']">
